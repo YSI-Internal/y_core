@@ -1,4 +1,16 @@
 {
 	"user": "YSI-Internal",
-	"repo": "y_core"
+	"repo": "y_core",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dev_dependencies": [
+		"YSI-Core/y_testing"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"echo": "-",
+		"rcon_password": "password",
+		"port": 7777
+	}
 }
