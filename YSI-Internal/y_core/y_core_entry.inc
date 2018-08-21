@@ -198,6 +198,6 @@ ScriptInit_PostInitFuncs_()
 
 // These are conditional, and use most of the preceeding code.
 #if defined YSI_TESTS
-	#include "..\y_testing"
+	#include <YSI-Core\y_testing>
 #endif
 
